@@ -1,4 +1,4 @@
-Travelers waste time turning scattered recommendations into a practical trip plan. The smallest version is one itinerary workspace that turns their preferences into an editable, day-by-day plan for one city.
+## Travelers waste time turning scattered recommendations into a practical trip plan. The smallest version is one command and a few questions that turns their preferences into editable and sharable plan for destinations.
 
 # Singularity
 
