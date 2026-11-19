@@ -25,18 +25,38 @@ AI, places, and routing integrations run on the backend.
 
 ## Run status
 
-This branch is a documentation-only proposal. It does not contain a runnable app.
-The initial UI prototype is being developed separately on `feat/trip-planner-ui`.
-Its uncommitted files remain in the original working directory; switching branches
-in another checkout will not bring those files along.
+The `UI` branch contains a runnable Next.js + TypeScript frontend
+prototype. It uses sample data and does not require API keys or a configured
+`.env.local` file.
 
-From that existing UI working directory:
+Requires Node.js 20.9+ and npm. From the project root:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000. The current prototype uses sample data and needs no API
-keys. Authentication, persistence, AI, routing, and collaboration are not connected
-yet; session edits reset on refresh.
+Open http://localhost:3000 to explore the itinerary, edit sample stops, switch
+budget views, and save inspiration links for the current session.
+
+Authentication, backend services, database persistence, AI planning, routing, and
+live collaboration are not connected yet. Changes reset on refresh.
+
+### Development checks
+
+```sh
+npm run lint
+npm run typecheck
+npm run build
+```
+
+## Current scope
+
+Next.js + TypeScript UI with an editable New York sample itinerary, day tabs,
+move/remove/undo controls, illustrative per-person/group budgets, and an inspiration
+link list. Changes are in-memory and reset on refresh. Other supported destinations
+show a placeholder rather than a misleading New York itinerary.
+
+Authentication, database persistence, AI planning, live prices/routes, social content
+retrieval, and shared editing are not connected. See `.env.example` for planned
+credentials and [the product plan](docs/product-plan.md) for architecture and scope.
