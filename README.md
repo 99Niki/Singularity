@@ -15,8 +15,8 @@ trip, then invite others to view and edit the same plan.
 - Clerk accounts and optional invitation-based collaboration.
 - Saved TikTok and Instagram inspiration links, not unrestricted social scraping.
 
-See [SPEC.md](SPEC.md) for requirements, exclusions, setup, and five GitHub Issue
-drafts. See [AGENTS.md](AGENTS.md) for implementation instructions.
+See [SPEC.md](SPEC.md) for requirements, exclusions, and proposed setup.
+See [AGENTS.md](AGENTS.md) for implementation instructions.
 
 ## Technology
 
