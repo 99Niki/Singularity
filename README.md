@@ -22,21 +22,3 @@ See [AGENTS.md](AGENTS.md) for implementation instructions.
 
 TypeScript, Next.js, React, Clerk, PostgreSQL hosted on Supabase, and Drizzle.
 AI, places, and routing integrations run on the backend.
-
-## Run status
-
-This branch is a documentation-only proposal. It does not contain a runnable app.
-The initial UI prototype is being developed separately on `feat/trip-planner-ui`.
-Its uncommitted files remain in the original working directory; switching branches
-in another checkout will not bring those files along.
-
-From that existing UI working directory:
-
-```sh
-npm install
-npm run dev
-```
-
-Open http://localhost:3000. The current prototype uses sample data and needs no API
-keys. Authentication, persistence, AI, routing, and collaboration are not connected
-yet; session edits reset on refresh.
