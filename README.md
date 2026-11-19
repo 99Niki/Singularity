@@ -7,7 +7,7 @@ trip, then invite others to view and edit the same plan.
 
 ## MVP scope
 
-- English-language web app for New York, Los Angeles, Chicago, San Francisco, and Las Vegas.
+- English-language web app for trip planner with U.S. Cities.
 - One destination per trip; exact dates and a confirmed hotel are optional.
 - Conversational preferences followed by a complete itinerary draft.
 - Editable stops, suggested timing, meal breaks, and API-backed transportation estimates.
